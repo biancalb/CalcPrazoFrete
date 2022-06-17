@@ -38,7 +38,7 @@ namespace Atividade01
             decimal Largura = Convert.ToDecimal(VlrLargura.Text);
             decimal Diametro = Convert.ToDecimal(VlrDiametro.Text);
             var MaoPropria = CdMaoPropria.Text;
-            decimal ValorDeclarado = VlrDeclarado.Text;
+            decimal ValorDeclarado = Convert.ToDecimal(VlrDeclarado.Text);
             var AvisoRecebimento = AvRecebimento.Text;
 
             var resultadoPreco = svc.CalcPreco(CodEmpresa, Senha, CodServico, CEPOrigem, CEPDestino, Peso, CdFormato, Comprimento, Altura, Largura, Diametro, MaoPropria, ValorDeclarado, AvisoRecebimento);

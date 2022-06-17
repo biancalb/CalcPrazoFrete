@@ -66,6 +66,9 @@ namespace Atividade01
             this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.TextErroMsg = new System.Windows.Forms.TextBox();
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -168,6 +171,7 @@ namespace Atividade01
             this.VlrComprimento.Name = "VlrComprimento";
             this.VlrComprimento.Size = new System.Drawing.Size(100, 22);
             this.VlrComprimento.TabIndex = 11;
+            this.toolTip6.SetToolTip(this.VlrComprimento, "15 cm a 100 cm");
             // 
             // label7
             // 
@@ -185,6 +189,7 @@ namespace Atividade01
             this.VlrAltura.Name = "VlrAltura";
             this.VlrAltura.Size = new System.Drawing.Size(100, 22);
             this.VlrAltura.TabIndex = 13;
+            this.toolTip8.SetToolTip(this.VlrAltura, "1 cm a 100 cm");
             // 
             // label8
             // 
@@ -202,6 +207,7 @@ namespace Atividade01
             this.VlrLargura.Name = "VlrLargura";
             this.VlrLargura.Size = new System.Drawing.Size(100, 22);
             this.VlrLargura.TabIndex = 15;
+            this.toolTip7.SetToolTip(this.VlrLargura, "10 cm a 100 cm");
             // 
             // label9
             // 
@@ -435,5 +441,8 @@ namespace Atividade01
         private System.Windows.Forms.ToolTip toolTip4;
         private System.Windows.Forms.ToolTip toolTip5;
         private System.Windows.Forms.TextBox TextErroMsg;
+        private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip7;
     }
 }
