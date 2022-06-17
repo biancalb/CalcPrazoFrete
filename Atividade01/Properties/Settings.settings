@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Atividade01.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Atividade01_com_crcind_www_SOAPDemo" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</Value>
+    </Setting>
+    <Setting Name="Atividade01_CalcPrecoPrazo_CalcPrecoPrazoWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
